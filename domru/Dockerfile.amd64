@@ -1,5 +1,13 @@
 FROM php:7.4.14-fpm
 
+# Заменяем основные репозитории на архивные
+RUN sed -i 's|deb.debian.org|archive.debian.org|g' /etc/apt/sources.list
+# Закомментируем старую (несуществующую) строку с репозиторием безопасности
+RUN sed -i 's|^deb.*security.debian.org.*$|# &|' /etc/apt/sources.list
+# Добавляем рабочий архивный репозиторий безопасности[citation:1]
+RUN echo "deb http://archive.debian.org/debian-security buster/updates main" >> /etc/apt/sources.list
+
+
 # Update & instal software
 RUN apt-get update && \
     apt-get upgrade -y && \

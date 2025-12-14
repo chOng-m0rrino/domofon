@@ -1,9 +1,9 @@
 {
-	"name": "Умный Дом.ru",
+	"name": "Домофон",
 	"version": "0.1.6",
-	"slug": "domru",
-	"description": "Умный Дом.ru",
-	"url": "https://github.com/alexmorbo/domru",
+	"slug": "domofon",
+	"description": "Умный домофон (fork https://github.com/alexmorbo/domru)",
+	"url": "https://github.com/wlad1164/domofon",
 	"startup": "application",
 	"webui": "http://[HOST]:[PORT:80]/",
 	"arch": ["amd64", "armv7", "aarch64", "i386"],
@@ -19,10 +19,10 @@
 	"ports_description": {
 		"80/tcp": "GUI http access"
 	},
-	"image": "alexmorbo/domru-{arch}",
+	"image": "wlad1164/domofon-{arch}",
 	"ingress": true,
 	"ingress_port": 80,
 	"panel_icon": "mdi:home-city-outline",
-	"panel_title": "Умный Дом.ru",
+	"panel_title": "Домофон",
 	"panel_admin": true
 }
