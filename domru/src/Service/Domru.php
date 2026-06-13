@@ -32,31 +32,31 @@ class Domru
 
     public const LOGIN_BY_ACCOUNT = 'account';
 
-    public const API_AUTH_LOGIN = 'https://api-mh.ertelecom.ru/auth/v2/login/%s';
+    public const API_AUTH_LOGIN = 'https://api-mh.dom.ru/auth/v2/login/%s';
 
-    public const API_AUTH_CONFIRMATION = 'https://api-mh.ertelecom.ru/auth/v2/confirmation/%s';
+    public const API_AUTH_CONFIRMATION = 'https://api-mh.dom.ru/auth/v2/confirmation/%s';
 
-    public const API_AUTH_CONFIRMATION_SMS = 'https://api-mh.ertelecom.ru/auth/v2/auth/%s/confirmation';
+    public const API_AUTH_CONFIRMATION_SMS = 'https://api-mh.dom.ru/auth/v2/auth/%s/confirmation';
 
     public const API_USER_AGENT = 'myHomeErth/3 CFNetwork/1240.0.4 Darwin/20.6.0';
 
-    public const API_REFRESH_SESSION = 'https://api-mh.ertelecom.ru/auth/v2/session/refresh';
+    public const API_REFRESH_SESSION = 'https://api-mh.dom.ru/auth/v2/session/refresh';
 
-    public const API_PROFILES = 'https://api-mh.ertelecom.ru/rest/v1/subscribers/profiles';
+    public const API_PROFILES = 'https://api-mh.dom.ru/rest/v1/subscribers/profiles';
 
-    public const API_FINANCES = 'https://api-mh.ertelecom.ru/rest/v1/subscribers/profiles/finances';
+    public const API_FINANCES = 'https://api-mh.dom.ru/rest/v1/subscribers/profiles/finances';
 
-    public const API_CAMERAS = 'https://api-mh.ertelecom.ru/rest/v1/forpost/cameras';
+    public const API_CAMERAS = 'https://api-mh.dom.ru/rest/v1/forpost/cameras';
 
-    public const API_SUBSCRIBER_PLACES = 'https://api-mh.ertelecom.ru/rest/v1/subscriberplaces';
+    public const API_SUBSCRIBER_PLACES = 'https://api-mh.dom.ru/rest/v1/subscriberplaces';
 
-    public const API_OPEN_DOOR = 'https://api-mh.ertelecom.ru/rest/v1/places/%d/accesscontrols/%d/actions';
+    public const API_OPEN_DOOR = 'https://api-mh.dom.ru/rest/v1/places/%d/accesscontrols/%d/actions';
 
-    public const API_CAMERA_GET_STREAM = 'https://api-mh.ertelecom.ru/rest/v1/forpost/cameras/%d/video?';
+    public const API_CAMERA_GET_STREAM = 'https://api-mh.dom.ru/rest/v1/forpost/cameras/%d/video?';
 
-    public const API_CAMERA_GET_SNAPSHOT = 'https://api-mh.ertelecom.ru/rest/v1/forpost/cameras/%d/snapshots?';
+    public const API_CAMERA_GET_SNAPSHOT = 'https://api-mh.dom.ru/rest/v1/forpost/cameras/%d/snapshots?';
 
-    public const API_EVENTS = 'https://api-mh.ertelecom.ru/rest/v1/places/%d/events?allowExtentedActions=true';
+    public const API_EVENTS = 'https://api-mh.dom.ru/rest/v1/places/%d/events?allowExtentedActions=true';
 
     public const REFRESH_ACCESS_TOKEN_INTERVAL = 60;
 
